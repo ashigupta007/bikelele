@@ -214,6 +214,15 @@ html, body
 	position: fixed;
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
 }
+/*.cart
+{
+	height: 20px;
+	background-color: #F5F5F5;
+	position:fixed;
+	bottom: 0px;
+	width: 100%;
+	padding: 20px;
+}*/
 .cart h4, .cart-container h4
 {
 	color: rgba(0,0,0,0.7);
@@ -366,10 +375,10 @@ form p
 }
 .cart-container
 {
-	background-color:  #F5F5F5;
-	height: 100%;
+	background-color: #F5F5F5;
+	height: 50vh;
 	padding: 10px;
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+	/*box-shadow: 0px 0px 10px rgba(0,0,0,0.3);*/
 	border-radius: 8px;
 	overflow-y: auto;
 }
@@ -388,6 +397,126 @@ form p
 {
 	margin-left: 20px;
 }
+.cart-sml
+{
+	margin:auto !important;
+	width:97%;
+	height:30px;
+	background-color: #B3B3B3;
+	font-weight:normal;
+	position:fixed;
+	display: block;
+	bottom: 0px;
+	left: 5px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding: 10px;
+}
+.cart-sml .drag
+{
+	margin-left: 45%;
+	font-size: 16px;
+}
+.txt-sml-2
+{
+	height: 40px;
+	border:0px;
+	background-color: #F2F2F2;
+	padding: 10px 30px;
+	border-radius: 5px;
+	margin: 10px;
+	width: 250px;
+	transition: all 300ms;
+}
+.txt-sml-2:focus
+{
+	outline: none;
+	/*box-shadow: 0px 0px 10px rgba(0,0,0,0.4)*/
+}
+.user-details form i
+{
+	font-size: 20px;
+	color: rgba(0,0,0,0.2);
+	margin-right: 30px;
+}
+.user-details
+{
+	color: rgba(0,0,0,0.5);
+	font-weight: 500;
+}
+label
+{
+	color:rgba(0,0,0,0.65);
+	font-weight:normal
+}
+.card
+{
+	width: 100px;
+	text-align: center;
+}
+.card i
+{
+	margin-left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	color: ;
+	font-size: 80px !important;
+	margin-bottom: 12px;
+}
+.form-wrapper
+{
+	color: rgba(255,255,255,0.6);
+	line-height:30px;
+}
+.form-container .form-wrapper i
+{
+	margin-right: 20px !important;
+}
+.form-container .form-wrapper span
+{
+	margin-left: 20px;
+	letter-spacing: 2px;
+}
+.btn-sml-2
+{
+	background-color: #f8b700;
+	border:0px;
+	border-radius: 10px;
+	width: 250px;
+	display: block;
+	height: 60px;
+	font-size: 17px;
+	font-weight: bold;
+	color: rgba(0,0,0,0.7);
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -176,6 +176,23 @@
 	</div>
 	
 
+	<div class="cart-sml">
+		<button class="drag"><i class="fas fa-minus"></i></button>
+
+		<div class="cart-items">
+						<div class="cart-item-pic">
+							<img src="images/bike1.jpg">
+						</div>
+						<div class="cart-item-details">
+							<h4>UM Renegade</h4>
+
+							<p>Qty: 1</p>
+							<br>
+							<a href="#" class="remove small"><i class="fas fa-trash-alt"></i> Remove</a>
+						</div>
+					</div>
+	</div>
+
 <div id="login" class="modal fade" role="dialog">
 	<div class="modal-dialog">
 
@@ -325,6 +342,17 @@
 
 		// $("#login").modal()
 		
-
+		$('.drag').click(function()
+		{	
+			if($('.cart-sml').height() < 50)
+			{
+				$('.cart-sml').height("90vh");
+			}
+			else
+			{
+				$('.cart-sml').height(15);	
+			}
+			
+		});
 	</script>
 </html>
